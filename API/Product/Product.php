@@ -22,10 +22,9 @@ public static function getName($index){
     $name = $GLOBALS['nameArray'][$index];
     return $name;
 }
-public static function getImage($index){
+public static function getImage(){
      
-    $image = $GLOBALS['imageArray'][$index];
-    return $image;
+    return "https://picsum.photos/200/300";
 }
 public static function getDescription($index){
    

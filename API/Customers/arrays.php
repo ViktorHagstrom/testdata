@@ -1,55 +1,82 @@
 <?php 
 
-$imageArray = array(
-    0 => 'tea.jpg',        //https://pixabay.com/photos/tea-leaves-dried-herbal-black-828940/
-    1 => 'chocolate.jpg',  //https://pixabay.com/photos/chocolate-bars-dark-chocolate-183543/
-    2 => 'vanilla.jpg' ,   //https://pixabay.com/photos/vanilla-pod-sugar-bowl-food-sweet-2519484/
-    3 => 'darkcoffee.jpg', //https://pixabay.com/photos/vanilla-pod-sugar-bowl-food-sweet-2519484/
-    4 => 'lightcoffee.jpg',//https://pixabay.com/photos/coffee-brown-caffeine-seed-2928210/
-    5 => 'saffron.jpg',    //https://pixabay.com/photos/saffron-red-real-real-saffron-3291935/ ----- fel format
-    6 => 'cassia.jpg' ,    //https://pixabay.com/photos/cinnamon-stick-spice-food-2519512/
-    7 => 'ceylon.jpg',     //https://pixabay.com/photos/cinnamon-stick-cinnamon-powder-spice-514243/
-    8 => 'cardamom.jpg',   //https://pixabay.com/photos/cardamom-elaichi-green-processed-166833/
-    9 => 'star-anise.jpg'  //https://pixabay.com/photos/star-anise-pepper-fragrant-1049573/
+/**
+ * Förnamn
+ * Efternamn
+ * Telefon
+ * Mail
+ * Gata
+ * Postnr
+ * Postort
+ * Säkerhetsfråga
+ *         * Svar
+ * lösen
+ */
+
+$firstNames = array(
+    0 => 'Viktor',        
+    1 => 'Elias',  
+    2 => 'Hui' ,   
+    3 => 'Sobhan',
+    4 => 'Salah',
+    5 => 'Sana',   
+    6 => 'Yohannes' ,    
+    7 => 'Meron',   
+    8 => 'Daniel',  
+    9 => 'Henrik'  
     );
     
-    $nameArray = array(
-    0 =>'Falun Gong Earl Grey',
-    1 =>'Mörk choklad',
-    2 =>'Vaniljstång, Madagaskar Bourbon',
-    3 =>'Colombianskt snabbkaffe, mörkrost',
-    4 =>'Colombianskt snabbkaffe, mellanrost',
-    5 =>'Saffran Dadaash',
-    6 =>'Kanel Cassia',
-    7 =>'Kanel Ceylon',
-    8 =>'Kardemumma Elachi',
-    9 =>'Stjärnanis hel'
+    $lastNames = array(
+    0 =>'Hagström',
+    1 =>'Gilani',
+    2 =>'Huang',
+    3 =>'Gustafsson',
+    4 =>'Andersson',
+    5 =>'Svensson',
+    6 =>'Karlsson',
+    7 =>'Al Hakim',
+    8 =>'Nilsson',
+    9 =>'Petersson'
     );
     
-    $descriptionArray = array(
-    0 => 'Ett svart te smaksatt med bergamott.',
-    1 => 'En Raw-vegansk chokladkaka med 100% kakaohalt.',
-    2 => 'Madagaskar Bourbon av högsta kvalitet, 12-14 cm långa.',
-    3 => 'Odlat i de mest ogenomträngliga delarna av Colombias regnskogar. En fyllig och aromatisk mörkrost som lovar att pigga upp i mörkret.',
-    4 => 'På en liten familjeägd kooperativ farm i Colombias regnskogar odlas kaffet för att sedan rostas till perfektion i familjens egna rosteri.',
-    5 => 'Ekologisk Sargol från Iran, med en söt och floral smak passar utmärkt till såväl bakverk som matlagning.',
-    6 => 'Bark från Kassiaträdet, kraftig och djup smak som gör sig perfekt till både matlagning och bakverk, orsakar leverskador vid regelbundet intag.',
-    7 => '"Äkta" kanel med en mild och armomatisk smak',
-    8 => 'Grön kardemumma från södra Indien, denna krydda används framför allt till desserter och risrätter men gör sig även utmärkt i desserter och bakverk.',
-    9 => 'Mycket kraftig anissmak, utmärkt till både mat och dessert'
+    $phones = array(
+    0 => '070-1234567',
+    1 => '071-1234567',
+    2 => '072-1234567',
+    3 => '073-1234567',
+    4 => '074-1234567',
+    5 => '075-1234567',
+    6 => '076-1234567',
+    7 => '077-1234567',
+    8 => '078-1234567',
+    9 => '079-1234567'
     );
-    $priceArray = array(
-    0 => 160,//kg
-    1 => 260 ,//260/kg
-    2 => 900,//kg
-    3 => 9000,//kg
-    4 => 9000,//kg,
-    5 => 70000, //kg
-    6 => 300,//kg
-    7 => 1200,//kg
-    8 => 1500,//kg
-    9 => 700,//kg    
-    );
+    $zip = array(
+        0 => '123 10',
+        1 => '123 11',
+        2 => '123 12',
+        3 => '123 13',
+        4 => '123 14',
+        5 => '123 15',
+        6 => '123 16',
+        7 => '128 66',
+        8 => '134 42',
+        9 => '165 73'
+        );
+
+        $town = array(
+        0 => 'Bromma ',
+        1 => 'Gustavsberg',
+        2 => 'Hässelby',
+        3 => 'Bredäng',
+        4 => 'Skarpnäck',
+        5 => 'Sollentuna',
+        6 => 'Farsta',
+        7 => 'Mordor',
+        8 => 'Fylke',
+        9 => 'Azeroth'
+        );
+
 
 
 
