@@ -76,6 +76,19 @@ $firstNames = array(
         8 => 'Fylke',
         9 => 'Azeroth'
         );
+     $customerID = array(
+        0 => 1,//kg
+        1 => 2 ,//260/kg
+        2 => 3,//kg
+        3 => 4,//kg
+        4 => 5,//kg,
+        5 => 6, //kg
+        6 => 7,//kg
+        7 => 8,//kg
+        8 => 9,//kg
+        9 => 10//kg    
+        );
+        
 
 
 

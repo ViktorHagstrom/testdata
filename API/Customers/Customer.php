@@ -18,6 +18,7 @@ class Product{
     private $address;
     private $zip;
     private $town;
+    private $customerID;
 
      
 public function __construct($index){
@@ -28,7 +29,8 @@ public function __construct($index){
     $this->phone = self::getPhone($index); 
     $this->address = self::getAddress($index); 
     $this->zip = self::getZip($index); 
-    $this->town = self::getTown($index);   
+    $this->town = self::getTown($index);  
+    $this->customerID = self::getCustomerID($index);   
 }
 public static function getfirstName($index){
   
@@ -49,6 +51,10 @@ public static function getPhone($index){
      
     $phone = $GLOBALS['phones'][$index];
     return $phone;
+}public static function getCustomerID($index){
+     
+    $id = $GLOBALS['customerID'][$index];
+    return $id;
 }
 public static function getAddress(){
     $address = "Lorem ipsum ";
@@ -64,6 +70,7 @@ public static function getZip($index){
 public function toArray(){
     
     $array = array(
+        "customerID"          => $this->customerID,
         "firstName"          => $this->firstName,
         "lastName"          => $this->lastName,
         "phone"       => $this->phone,

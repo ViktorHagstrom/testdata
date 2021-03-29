@@ -14,7 +14,7 @@ class Product{
    
 public function __construct($index){
 
-    $this->customerID = rand(1,50);
+    $this->customerID = rand(1,10);
     $this->orderID= rand(1,50);
     $this->date = self::getDate(); 
     $this->price = rand(5,500); 
